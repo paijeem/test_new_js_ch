@@ -1129,7 +1129,7 @@
                 created: function () {
                     (this.$global.routeTag = 0), (this.$global.roloadTag = !0);
                     var t = this.lang.submit_success_tips.split("{date_time}"),
-                        e = t.pop().split("{days}");
+                        e = 0;
                     (this.textArr = [].concat(Object(Yt["a"])(t), Object(Yt["a"])(e))), (this.loading = !1);
                 },
                 methods: {
